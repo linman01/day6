@@ -1,0 +1,64 @@
+body {
+	background-color: lightblue;
+	margin: 20px;
+}
+
+/* header styles */
+
+
+h1{
+	text-shadow: 2px 2px #c27f7f;
+	font-size: 50px;
+	background-color: #ebc7c7;
+	width: 300px;
+	box-shadow: -2px 2px #000;
+
+}
+
+/* nav styles */
+nav {
+	background-color: blue;
+	
+}
+
+
+nav .menu{
+	float: right;
+	padding-top: 20px;
+	padding-right: 15px;
+	color: white;
+	font-size: 20px;
+
+}
+
+.logo {
+	width: 75px;
+	height: auto;
+	padding-left: 20px;
+}
+
+/* hero styles */
+.hero {
+	clear: both;
+	height: 400px;
+	background: #ffffff url("/img/cat-laying-lg.jpg") no-repeat bottom left;
+}
+
+/* main styles */
+main {
+	float: left;
+	width: 65%;
+	border: 1px solid black;
+	height: 900px;
+}
+
+aside {
+	float: right;
+	width: 33%;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+footer {
+	clear: both;
+}
